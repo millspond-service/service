@@ -8,8 +8,11 @@ div {
   background-color: rgb(157, 167, 30);
 }
 #contact {
-  background-color: #cfc;
-  border: 1px solid green;
+  background-color: lightgrey;
+}
+#brief {
+  background-color: lightgrey;
+  border: 1px solid black;
 }
 caption {
   padding: 10px;
@@ -34,14 +37,14 @@ caption {
   background-color: #f3f3f3;
 }
 
-.styled-table tbody tr:last-of-type {
+/* .styled-table tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
-}
+} */
 
-.styled-table tbody tr.active-row {
+/* .styled-table tbody tr.active-row {
   font-weight: bold;
   color: #009879;
-}
+} */
 
 tbody tr:nth-child(odd) {
   background-color: #e9dbe5;
